@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.aa22e475.css",
+    "main.js": "/Portfolio/static/js/main.03286ede.js",
+    "static/js/453.ea41da1c.chunk.js": "/Portfolio/static/js/453.ea41da1c.chunk.js",
+    "static/media/ETL.png": "/Portfolio/static/media/ETL.c321988a9e0482bbd13a.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/PowerBI.jpg": "/Portfolio/static/media/PowerBI.90b090624c1877e15e84.jpg",
+    "static/media/fontawesome-webfont.eot": "/Portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/riskassesment.jpg": "/Portfolio/static/media/riskassesment.523c1f35a7f8c1ae3e20.jpg",
+    "static/media/network.jpg": "/Portfolio/static/media/network.1b011af07453435442bc.jpg",
+    "static/media/mstcgs.jpg": "/Portfolio/static/media/mstcgs.d8be2fff6d0e3ab77e7d.jpg",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.c473592fbba577c9e30c.pdf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/NetflixAnalyitcs.jpg": "/Portfolio/static/media/NetflixAnalyitcs.a6bd31a78ffe33f1ca54.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/hello-light.png": "/Portfolio/static/media/hello-light.87c00d24f2e6c7f52873.png",
+    "static/media/hello-dark.png": "/Portfolio/static/media/hello-dark.04bc89594014ff6ecd3f.png",
+    "static/media/connect-dark.png": "/Portfolio/static/media/connect-dark.f2d6879fa614e13e8221.png",
+    "static/media/connect-light.png": "/Portfolio/static/media/connect-light.310b15f3310c5b03acde.png",
+    "static/media/contact-dark.svg": "/Portfolio/static/media/contact-dark.5c2b414dd4c45a5f850cc3ebbf5d2889.svg",
+    "static/media/contact-light.svg": "/Portfolio/static/media/contact-light.b043be0a386fc6bb24e4d2a5b248d2ad.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.aa22e475.css.map": "/Portfolio/static/css/main.aa22e475.css.map",
+    "main.03286ede.js.map": "/Portfolio/static/js/main.03286ede.js.map",
+    "453.ea41da1c.chunk.js.map": "/Portfolio/static/js/453.ea41da1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa22e475.css",
+    "static/js/main.03286ede.js"
+  ]
+}
