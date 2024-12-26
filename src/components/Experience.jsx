@@ -1,6 +1,6 @@
 import { useState, React } from 'react'
 import { Zoom, Fade } from 'react-awesome-reveal'
-import dsc from '../media/ETL.png'
+import dsc from '../media/pipeline.png'
 import scr from '../media/mstcgs.jpg'
 import gotg from '../media/NetflixAnalyitcs.jpg'
 import rfp from '../media/PowerBI.jpg'
@@ -37,18 +37,18 @@ const Experience = ({darkMode}) => {
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div className="flip-card-front">
-                                        <Card.Img variant="top" src={tcd}/>
+                                        <Card.Img variant="top" src={dsc}/>
                                         <Card.Body>
-                                            <Card.Title align="center">Smart Contract Vulnerability Analysis & Risk Profiling</Card.Title>
+                                            <Card.Title align="center">YouTube Data Piepline</Card.Title>
                                             <Card.Text>
-                                                <p align="center">A data-driven project analyzing and categorizing smart contract vulnerabilities for improved risk assessment.</p>
+                                                <p align="center">A scalable ETL Pipeline for processing YouTube data, enabling real-time insights through optimized data formats and interactive dashboards</p>
                                             </Card.Text>
                                         </Card.Body>
                                     </div>
                                     <div className="flip-card-back">
-                                        <p>Conduct detailed data labeling and validation of smart contract vulnerabilities to ensure data reliability.
-                                        <br></br>Utilized unsupervised machine learning for cluster analysis, improving risk profiling effectiveness by 30%.                                        .
-                                        <br></br>Leveraged SQL, Excel, and Tableau for data analysis, leading to a 20% faster turnaround in generating actionable insights.
+                                        <p>Designed an ETL pipeline with AWS Glue and Lambda, reducing manual effort by 70% and enabling real-time data readiness.
+                                        <br></br>Transformed JSON and CSV data into Parquet, improving query performance with AWS Athena.
+                                        <br></br>Created an AWS QuickSight dashboard for regional YouTube performance, boosting decision-making efficiency by 60%.
                                         </p>
                                     </div> 
                                 </div>
@@ -56,8 +56,41 @@ const Experience = ({darkMode}) => {
                         </center>
                         <br></br>
                         <div>
-                            <a href="https://github.com/sindhubommali01/Smart-Contract-Vulnerabilities" target="_blank" rel="noreferrer noopener">
+                            <a href="https://github.com/sindhubommali01/Youtube_Data_Pipeline_AWS" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
+                            </a>
+                        </div>
+                        <br></br>
+                        </Card>
+                    </Col>
+                    <Col lg={4} sm={12}>
+                        <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
+                        <br></br>
+                        <center>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div className="flip-card-front">
+                                        <Card.Img variant="top" src={ca}/>
+                                        <Card.Body>
+                                            <Card.Title align="center">Network Intrusion Detection</Card.Title>
+                                            <Card.Text>
+                                                <p align="center">A machine learning-based system for detecting network intrusions by analyzing network traffic data with Python</p>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </div>
+                                    <div className="flip-card-back">
+                                        <p>Built a real-time monitoring system to detect network intrusions using Python, Kafka, scikit-learn, and TensorFlow on the UNSW-NB15 dataset.
+                                        <br></br>Enhanced firewall capabilities and reduced intrusion detection time by 40%, achieving 96% anomaly detection accuracy.
+                                        <br></br>Strengthened model accuracy by 15% through advanced data preprocessing and visualization in Tableau.
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </center>
+                        <br></br>
+                        <div>
+                            <a href="https://github.com/sindhubommali01/Intrusion-Detection-System" target="_blank" rel="noreferrer noopener">
+                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                             </a>
                         </div>
                         <br></br>
@@ -79,8 +112,8 @@ const Experience = ({darkMode}) => {
                                         </Card.Body>
                                     </div>
                                     <div className="flip-card-back">
-                                        <p>Leveraged visualizations to uncover insights into audience preferences and content distribution
-                                        <br></br>Achieved a 20% improvement in data-driven content acquisition and recommendation strategies
+                                        <p>Created a Tableau dashboard analyzing 5K+ titles, highlighting India's 92% movie dominance and a 74% content increase post-2015.
+                                        <br></br>Designed filters for type, ratings, and year, enabling user exploration of top genres, monthly additions, and audience-specific insights.
                                         </p>
                                     </div> 
                                 </div>
@@ -89,39 +122,6 @@ const Experience = ({darkMode}) => {
                         <br></br>
                         <div>
                             <a href="https://public.tableau.com/app/profile/tanmay.bandaru/viz/Netflix_Real2/Dashboard1" target="_blank" rel="noreferrer noopener">
-                                <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
-                            </a>
-                        </div>
-                        <br></br>
-                        </Card>
-                    </Col>
-                    <Col lg={4} sm={12}>
-                        <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
-                        <br></br>
-                        <center>
-                            <div class="flip-card">
-                                <div class="flip-card-inner">
-                                    <div className="flip-card-front">
-                                        <Card.Img variant="top" src={ca}/>
-                                        <Card.Body>
-                                            <Card.Title align="center">Network Intrusion Detection</Card.Title>
-                                            <Card.Text>
-                                                <p align="center">A machine learning-based system for detecting network intrusions by analyzing network traffic data with Python.</p>
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </div>
-                                    <div className="flip-card-back">
-                                        <p>Built a real-time monitoring system to detect network intrusions using Python, Kafka, scikit-learn, and TensorFlow on the UNSW-NB15 dataset.
-                                        <br></br>Enhanced firewall capabilities and reduced intrusion detection time by 40%, achieving 96% anomaly detection accuracy.
-                                        <br></br>Strengthened model accuracy by 15% through advanced data preprocessing and visualization in Tableau.
-                                        </p>
-                                    </div> 
-                                </div>
-                            </div>
-                        </center>
-                        <br></br>
-                        <div>
-                            <a href="https://github.com/sindhubommali01/Intrusion-Detection-System" target="_blank" rel="noreferrer noopener">
                                 <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                             </a>
                         </div>
@@ -144,13 +144,13 @@ const Experience = ({darkMode}) => {
                                         <Card.Body>
                                             <Card.Title align="center">HR Analytics</Card.Title>
                                             <Card.Text>
-                                                <p align="center">An interactive Power BI dashboard, provides HR teams with actionable insights for strategic decision-making.</p>
+                                                <p align="center">An interactive Power BI dashboard, provides HR teams with actionable insights for strategic decision-making</p>
                                             </Card.Text>
                                         </Card.Body>
                                     </div>
                                     <div className="flip-card-back">
-                                        <p>Enabled strategic planning and trend identification through simplified data analysis
-                                        <br></br>Enhanced firewall capabilities and reduced intrusion detection time by 40%, achieving 96% anomaly detection accuracy.
+                                        <p>Developed a Power BI dashboard to analyze 1,470 employees, showcasing 92% active employees and identifying 72 employees eligible for promotion.
+                                        <br></br> Included gender distribution (60% male, 40% female), job levels, and proximity insights for actionable workforce planning.
                                         </p>
                                     </div>  
                                 </div>
@@ -172,18 +172,18 @@ const Experience = ({darkMode}) => {
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div className="flip-card-front">
-                                        <Card.Img variant="top" src={dsc}/>
+                                        <Card.Img variant="top" src={tcd}/>
                                         <Card.Body>
-                                            <Card.Title align="center">End-to-End Data Workflow Automation</Card.Title>
+                                            <Card.Title align="center">Smart Contract Vulnerability Analysis & Risk Profiling</Card.Title>
                                             <Card.Text>
-                                                <p align="center">Automated ETL pipeline to streamline data extraction, transformation, and loading for improved processing efficiency.</p>
+                                                <p align="center">A data-driven project analyzing and categorizing smart contract vulnerabilities for improved risk assessment</p>
                                             </Card.Text>
                                         </Card.Body>
                                     </div>
                                     <div className="flip-card-back">
-                                        <p> Developed an ETL pipeline using Python, reduced manual data processing time by 40%..
-                                        <br></br>Optimized data workflows, decreasing data processing time by 35% and enhancing overall productivity..
-                                        <br></br>Loaded transformed data into a structured database, improving data retrieval and analysis speed by 30%.
+                                        <p>Conduct detailed data labeling and validation of smart contract vulnerabilities to ensure data reliability.
+                                        <br></br>Utilized unsupervised machine learning for cluster Exploratory data analysis, improving risk profiling effectiveness by 30%.
+                                        <br></br>Leveraged SQL, Excel, and Tableau for data analysis and Visualization, leading to a 20% faster turnaround in generating actionable insights.
                                         </p>
                                     </div> 
                                 </div>
@@ -191,7 +191,7 @@ const Experience = ({darkMode}) => {
                         </center>
                         <br></br>
                         <div>
-                        <a href="https://github.com/sindhubommali01/Beginner-ETL-Pipeline" target="_blank" rel="noreferrer noopener">
+                        <a href="https://github.com/sindhubommali01/Smart-Contract-Vulnerabilities" target="_blank" rel="noreferrer noopener">
                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                         </a>
                         </div>

@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import './styles.css';
 import connectLight from '../media/connect-light.png';
 import connectDark from '../media/connect-dark.png';
-import resume from '../media/Resume.pdf'
+import resume from '../media/Sindhu_Bommali.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
@@ -85,7 +85,7 @@ const About = ({darkMode}) => {
                         <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
                         <br></br>
                         <Card.Text>
-                          <p>I am a <strong>Graduate student</strong> from Missouri University Science and Technology, Department of <strong>Computer Science</strong>, I am a <strong>Dynamic Data enthusiast, Problem solver</strong> and believe in <strong>networking</strong> a lot. Many things excite me in this expanse of technology, and I like to explore and keep my options open all the time. I am up for challenges that take me by surprise and make my head hurt. I'm comfortable working on any domain if I find the project is worth it. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things, I enjoy good books and verses, and I have a good eye for art.<br></br>
+                          <p>I am a <strong>Graduate student</strong> from Missouri University Science and Technology, Department of <strong>Computer Science</strong>, I am a <strong>Dynamic Data enthusiast, Problem solver</strong> and believe in <strong>Networking</strong> a lot. Many things excite me in this expanse of technology, and I like to explore and keep my options open all the time. I am up for challenges that take me by surprise and make my head hurt. I'm comfortable working on any domain if I find the project is worth it. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things, I enjoy good books and verses, and I have a good eye for art.<br></br>
                           Now that you know me a bit, please feel free to drop a text because <strong>Communication is a two-way street.</strong></p>
                         </Card.Text>
                         <a href={resume} target="_blank" rel="noreferrer noopener">
@@ -106,7 +106,7 @@ const About = ({darkMode}) => {
                       <Card.Body>
                         <Card.Title><h2 className="lead">Let's Connect!</h2></Card.Title>
                         <br></br>
-                        <a href="https://www.linkedin.com/in/sindhu-bommali/" target="_blank" rel="noreferrer noopener">
+                        <a href="https://www.linkedin.com/in/sindhub01/" target="_blank" rel="noreferrer noopener">
                           <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
                             <FontAwesomeIcon className="dark" size="lg" icon={faLinkedin}/> Sindhu Bommali
                           </Button>
