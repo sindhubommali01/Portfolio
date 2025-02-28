@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a2ba2128.css",
-    "main.js": "/static/js/main.62ecf9dc.js",
+    "main.js": "/static/js/main.b553af1b.js",
     "static/js/453.ea41da1c.chunk.js": "/static/js/453.ea41da1c.chunk.js",
-    "static/media/ETL.png": "/static/media/ETL.c321988a9e0482bbd13a.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/pipeline.png": "/static/media/pipeline.c6051dff5a727061f703.png",
+    "static/media/SindhuBommali.pdf": "/static/media/SindhuBommali.dad392cec44fd9dd1784.pdf",
     "static/media/PowerBI.jpg": "/static/media/PowerBI.90b090624c1877e15e84.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/riskassesment.jpg": "/static/media/riskassesment.523c1f35a7f8c1ae3e20.jpg",
     "static/media/network.jpg": "/static/media/network.1b011af07453435442bc.jpg",
     "static/media/mstcgs.jpg": "/static/media/mstcgs.d8be2fff6d0e3ab77e7d.jpg",
-    "static/media/Resume.pdf": "/static/media/Resume.c473592fbba577c9e30c.pdf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/NetflixAnalyitcs.jpg": "/static/media/NetflixAnalyitcs.a6bd31a78ffe33f1ca54.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
@@ -23,11 +23,11 @@
     "static/media/contact-light.svg": "/static/media/contact-light.b043be0a386fc6bb24e4d2a5b248d2ad.svg",
     "index.html": "/index.html",
     "main.a2ba2128.css.map": "/static/css/main.a2ba2128.css.map",
-    "main.62ecf9dc.js.map": "/static/js/main.62ecf9dc.js.map",
+    "main.b553af1b.js.map": "/static/js/main.b553af1b.js.map",
     "453.ea41da1c.chunk.js.map": "/static/js/453.ea41da1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2ba2128.css",
-    "static/js/main.62ecf9dc.js"
+    "static/js/main.b553af1b.js"
   ]
 }
