@@ -46,25 +46,25 @@ const Skills = ({ darkMode }) => {
                             <Card className="skill-nbcard">
                         <Card.Body>
                             <Card.Title>Programming Languages</Card.Title>
-                            <Card.Text>SQL, Python, R, Java</Card.Text>
+                            <Card.Text>SQL, Python, R</Card.Text>
                         </Card.Body>
                     </Card>
                     <Card className="skill-nbcard">
                         <Card.Body >
                             <Card.Title>Tools</Card.Title>
-                            <Card.Text>Excel, Tableau, Alteryx, Power BI, Looker</Card.Text>
+                            <Card.Text>Advanced Excel, Tableau, Power BI</Card.Text>
                         </Card.Body>
                     </Card>
                     <Card className="skill-nbcard">
                         <Card.Body >
                             <Card.Title>Databases & Cloud</Card.Title>
-                            <Card.Text>AWS (Lambda, Glue Studio, Athena, Redshift, QuickSight), Snowflake, Salesforce</Card.Text>
+                            <Card.Text>MySQL, SQL Server, AWS, Azure </Card.Text>
                         </Card.Body>
                     </Card>
                     <Card className="skill-nbcard">
                         <Card.Body >
                             <Card.Title>Others</Card.Title>
-                            <Card.Text>MS office, Jira</Card.Text>
+                            <Card.Text>MS office</Card.Text>
                         </Card.Body>
                     </Card>
                         </Col>

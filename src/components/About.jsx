@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import './styles.css';
 import connectLight from '../media/connect-light.png';
 import connectDark from '../media/connect-dark.png';
-import resume from '../media/Sindhu_Bommali.pdf';
+import resume from '../media/SindhuBommali.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
